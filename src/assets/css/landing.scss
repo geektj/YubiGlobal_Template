@@ -1,0 +1,263 @@
+@import './color.scss';
+
+.first-column{
+    
+    .left-side{
+        width: 40%;
+        .heading{
+            font-size: 30px;
+            font-weight: 600;
+            color: $color-blue;
+            letter-spacing: 1px;
+            span{
+                color: $color-green;
+            }
+            .line-break{
+                display: block;
+            }
+        }
+        .text{
+            font-size: 16px;
+            color: $dark-grey;
+            padding-top: 25px;
+        }
+        .btn{
+            padding-top: 30px;
+        }
+    }
+    .right-side{
+        width: 60%;
+        .sector-img{
+            width: 100%;
+            height: 200px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+.second-column{
+    .w-60{
+        width: 60%;
+    }
+    .w-40{
+        width: 40%;
+    }
+    .realtime-project{
+        // text-align: right;
+        // display: block;
+        color: $white;
+        .realtime-head{
+            font-size: 38px;
+            font-weight: 600;
+            padding-bottom: 30px;
+            letter-spacing: 1px;
+        }
+        .tachometer{
+        
+            a{
+                border: 1px solid transparent;
+                background-color: $white;
+                color: $dark-grey;
+                margin-left: 10px;
+                text-transform: capitalize;
+                padding: 5px 10px;
+            }
+            i{
+                font-size: 38px;
+            }
+        }
+        .realtime-para{
+            line-height: 1.8;
+            font-size: 18px;
+        }
+    }
+}
+
+.bg-image{
+    background: url('../images/buy-sell-bg.png') 60% 50% no-repeat;
+    height: 500px;
+    
+}
+
+.third-column{
+    .box-align{
+        width: 65%;
+        .heading{
+            font-size: 43px;
+            color: $color-green;
+            font-weight: 500;
+            text-transform: capitalize;
+            
+        }
+        .text{
+            font-size: 20px;
+            color: $black;
+            line-height: 1.5;
+            padding: 40px 0px 70px;
+            text-align: left;
+        }
+    }
+    .process{
+        justify-content: space-between;
+        
+        .process-start{
+            flex-direction: column;
+            width: 20%;
+            .circle-border{
+                border: 2px solid gainsboro;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                width: 100px;
+                height: 100px;
+                .images{
+                    width: 60px;
+                    height: 60px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                
+            }
+            .image-desc{
+                padding-top: 20px;
+                width: 60%;
+                .text{
+                    font-size: 17px;
+                    color: $black;
+                    
+                }
+            }
+        }
+    }
+}
+
+.fourth-column{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .marketplace-img-box{
+        height: 100%;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .icons-img-box {
+        position: absolute;
+        top: 140px;
+        left: 130px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .marketplace-text-box {
+        position: absolute;
+        top: 100px;
+        right: 150px;
+        width: 240px;
+        .heading {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            font-size: 40px;
+            font-weight: bold;
+            color: $color-blue;
+        }
+        .text-box {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            color: $black;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+    }
+}
+
+.fifth-column{
+    .left-side{
+        .images{
+            width: 350px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .right-side{
+        color: $white;
+        .bank-heading{
+            font-size: 35px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .bank-para{
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .bank-btn{
+            margin-top: 15px;
+        }
+    }
+}
+.banking-bg{
+    background: url('../images/cash-bg.png')30% 100% no-repeat;
+    height: 500px;
+
+}
+
+.sixth-column{
+    .text-heading{
+        font-size: 30px;
+        color: $color-green;
+        font-weight: 500;
+        letter-spacing: 1px;
+
+    }
+    .box{
+        padding-top: 30px;
+        .left-side{
+            .management-img{
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .right-side{
+            // margin-left: 30px;
+            padding-left: 60px;
+            .management-features{
+                .feature{
+                    line-height: 4;
+                    .feature-img{
+                        width: 50px;
+                        height: 50px;
+                        margin-right: 20px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .feature-point{
+                       
+                        .heading{
+                            font-size: 18px;
+                            color: $black;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
