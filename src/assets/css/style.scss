@@ -135,6 +135,9 @@ ul{
     .direction-column{
         flex-direction: column;
     }
+    .h-align{
+        justify-content: center;
+    }
     // header
 
     // sections
@@ -145,6 +148,9 @@ ul{
         .left-side{
             width: 100% !important;
             padding-left: 10px;
+            .text{
+                padding-top: 10px !important;
+            }
         }
         .right-side{
             width: 100% !important;
@@ -272,7 +278,9 @@ ul{
             align-items: center;
     
         }
-        
+        .right-side{
+            padding: 0 !important;
+        }
         .management-features{
             .feature{
                 line-height: 2.5 !important;
@@ -314,8 +322,11 @@ ul{
     .w-90{
         width: 90%;
     }
+    .none{
+        display: none;
+    }
     // header
-
+    
     // sections
     .sector-img{
         height: 400px !important;

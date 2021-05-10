@@ -159,10 +159,10 @@ function Landing() {
                             <img src={ManagementIcon} alt="" />
                         </div>
                     </div>
-                    <div className="right-side w-50 flex v-align w-100">
+                    <div className="right-side w-50 flex v-align h-align w-100">
                         <div className="management-features">
-                            <div className="feature flex v-align">
-                                <div className="feature-img  flex h-align v-align">
+                            <div className="feature flex v-align ">
+                                <div className="feature-img flex h-align v-align">
                                     <img src={PickupIcon} alt="" />
                                 </div>
                                 <div className="feature-point">
