@@ -116,3 +116,147 @@ ul{
 .d-none{
     display: none;
 }
+
+//mobile
+@media screen and (max-width:720px){
+
+}
+//tablets
+@media screen and (min-width:721px) and (max-width:1100px){
+    // common classes
+    .w-90{
+        width: 90%;
+    }
+    // header
+    
+    // sections
+    .sector-img{
+        height: 400px !important;
+    }
+    // second-column
+    .second-column{
+        .realtime-project{
+            .realtime-head{
+                font-size: 25px !important;
+            }
+            .tachometer{
+                i{
+                    font-size: 25px !important;
+                }
+            }
+            .realtime-para{
+                font-size: 16px !important;
+                line-height: 1.5 !important;
+            }
+        }
+    }
+    .bg-image{
+        // background: url('../images/buy-sell-bg.png') 55% 55% no-repeat;
+        background-size: 100% 100% !important;
+                
+    }
+    // Third-column
+    .third-column{
+        .box-align{
+            text-align: center;
+            .heading{
+                font-size: 30px !important;
+            
+            }
+            .text{
+                font-size: 18px;
+                text-align: center !important;
+            }
+        }
+        .process{
+            align-items: baseline;
+            .process-start{
+                .circle-border{
+                    width: 70px !important;
+                    height: 70px !important;
+                    
+                }
+                .image-desc{
+                    width: 70% !important;
+                }
+            }
+        }
+        
+    }
+    // fourth-column
+    .fourth-column{
+        .icons-img-box{
+            top: 10% !important;
+            left: 7% !important;
+        }
+        .marketplace-text-box{
+            top: 10% !important;
+            right: 10% !important;
+            // width: 200px !important;
+            width: 20% !important;
+
+            .heading{
+                font-size: 20px !important;
+                font-weight: 500;
+            }
+            .text-box{
+                font-size: 13px !important;
+                line-height: normal !important;
+            }
+        }
+    }
+
+    // cash intensive banking
+    .fifth-column{
+        .left-side{
+            .images{
+                width: 250px !important;
+            }
+        }
+        .right-side{
+            .bank-heading{
+                font-size: 25px !important;
+            }
+            .bank-para{
+                font-size: 14px !important;
+            }
+        }
+    }
+
+    // cash-management
+    .left-side{
+        display: flex;
+        align-items: center;
+
+    }
+    
+    .management-features{
+        .feature{
+            line-height: 2.5 !important;
+            .feature-img{
+                width: 30px !important;
+                height: 30px !important;
+            }
+            .feature-point{
+                .heading{
+                    font-size: 16px !important;
+                }
+            }
+        }   
+    }
+    
+    
+
+
+    // footer
+    
+    .explore-box{
+        width: 30% !important;
+        padding: 10px !important;
+        .icon{
+            width: 25px !important;
+            height: 25px !important;
+        }
+    }
+                    
+}

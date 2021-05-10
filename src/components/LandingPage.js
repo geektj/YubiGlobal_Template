@@ -25,7 +25,7 @@ function Landing() {
   return (
     <>
         <section>
-            <div className="w-80 m-auto flex first-column p-top-bottom-100">
+            <div className="w-80 w-90 m-auto flex first-column p-top-bottom-100">
                 <div className="left-side">
                     <div className="">
                         <div className="heading font-family m-bottom-10">Banking Compliant <span className="line-break">Payments</span><span className="line-break">Technology.</span> </div>
@@ -42,7 +42,7 @@ function Landing() {
         </section>
         <section>
             <div className="bg-image second-column w-100 flex v-align">
-                <div className="flex w-80 m-auto">
+                <div className="flex w-80 w-90 m-auto">
                     <div className="w-60"></div>
                     <div className="font-family w-40 realtime-project">
                         <div className="realtime-head">Buy & Sell Products <br/>with Confidence</div>
@@ -54,7 +54,7 @@ function Landing() {
             </div>
         </section>
         <section>
-            <div className="w-80 m-auto third-column p-top-bottom-100">
+            <div className="w-80 w-90 m-auto third-column p-top-bottom-100">
                 <div className="box-align m-auto font-family">
                     <div className="heading">We protect both trading partners</div>
                     <div className="text">Buyers and Sellers negotiate on the terms and conditions of payment release before the buyer escrow funds. Funds are only released once the agreed upon terms are satisfied.</div>
@@ -130,7 +130,7 @@ function Landing() {
         </section>
         <section>
             <div className="banking-bg fifth-column flex v-align">
-                <div className="w-80 m-auto flex v-align">
+                <div className="w-80 w-90 m-auto flex v-align">
                     <div className="left-side w-50">
                         <div className="images m-auto">
                             <img src={CashImg} alt='cash img' />
@@ -149,7 +149,7 @@ function Landing() {
             </div>
         </section>
         <section>
-            <div className="w-80 m-auto sixth-column p-top-bottom-100">
+            <div className="w-80 w-90 m-auto sixth-column p-top-bottom-100">
                 <div className="t-align p-bottom-20">
                     <div className="text-heading font-family">Cash Management</div>
                 </div>

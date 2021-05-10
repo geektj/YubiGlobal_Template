@@ -8,8 +8,8 @@ function Header() {
   return (
     <>
         <header className="navbar-fixed-top">
-            <nav className="navbar w-80 m-auto flex v-align">
-                <div className="col-lg-2 col-md-3 col-sm-12 col-xs-12 brand-logo-div">
+            <nav className="navbar w-80 w-90 m-auto flex v-align">
+                <div className="brand-logo-div">
                     <a href="#" className="logo-img">
                         <img src={Logo} alt="logo"/>
                     </a>
@@ -17,7 +17,7 @@ function Header() {
                 {/* <div className="navbar-collapse bar-icon display-none">
                         <i className="fas fa-bars"></i>
                 </div> */}
-                <div className="col-lg-10 col-md-12 col-sm-12 col-xs-12 right-side flex display-none">
+                <div className="right-side flex display-none">
                     <ul className="items nav flex font-family v-align">
                         <li className="list-item"><a className="" href="#">Banking</a></li>
                         <li className="list-item"><a className="" href="#">Payments</a></li>
