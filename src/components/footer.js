@@ -11,7 +11,7 @@ function Footer() {
   return (
     <>
         <footer>
-          <div className="footer w-80 w-90 m-auto">
+          <div className="footer w-80 w-90 w-100 m-auto">
             <div className="flex v-align footer-top ">
               <div className="logo">
                 <img src={Logo} alt="logo" />

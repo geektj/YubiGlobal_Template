@@ -7,7 +7,7 @@ import Logo from '../assets/images/logo.png';
 function Header() {
   return (
     <>
-        <header className="navbar-fixed-top">
+        <header className="navbar-fixed-top display-none">
             <nav className="navbar w-80 w-90 m-auto flex v-align">
                 <div className="brand-logo-div">
                     <a href="#" className="logo-img">
@@ -17,7 +17,7 @@ function Header() {
                 {/* <div className="navbar-collapse bar-icon display-none">
                         <i className="fas fa-bars"></i>
                 </div> */}
-                <div className="right-side flex display-none">
+                <div className="right-side flex">
                     <ul className="items nav flex font-family v-align">
                         <li className="list-item"><a className="" href="#">Banking</a></li>
                         <li className="list-item"><a className="" href="#">Payments</a></li>

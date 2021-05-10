@@ -118,8 +118,195 @@ ul{
 }
 
 //mobile
-@media screen and (max-width:720px){
+@media screen and (min-width:360px) and (max-width:720px){
+    // common class
+    .display-none{
+        display: none;
+    }
+    .w-100{
+        width: 100%;
+    }
+    .p-top-bottom-20{
+        padding: 20px 0px;
+    }
+    .font-family{
+        font-size: 12px !important;
+    }
+    .direction-column{
+        flex-direction: column;
+    }
+    // header
 
+    // sections
+    // first-section
+    .first-column{
+        padding: 30px 0px !important;
+        flex-direction: column-reverse;
+        .left-side{
+            width: 100% !important;
+            padding-left: 10px;
+        }
+        .right-side{
+            width: 100% !important;
+            .sector-img{
+                height: 100% !important;
+            }
+        }
+    }
+    // second-section
+    .second-column{
+        .realtime-project{
+            .realtime-head{
+                font-size: 15px !important;
+                padding-bottom: 10px !important;
+            }
+            .tachometer{
+                i{
+                    font-size: 15px !important;
+                }
+                a{
+                    font-size: 10px !important;
+                    padding: 5px !important;
+                    margin-left: 5px !important;
+                }
+            }
+            .realtime-para{
+                font-size: 13px !important;
+                line-height: 1 !important;
+            }
+        }
+    }
+    .bg-image{
+        background-size: 100% 100% !important;
+        height: auto !important;
+    }
+    // third-section
+    .third-column{
+        padding: 30px 0px !important;
+        .box-align{
+            width: 100% !important;
+            text-align: center;
+            .heading{
+                font-size: 25px !important;
+            }
+            .text{
+                font-size: 16px !important;
+                text-align: center !important;
+            }
+        }
+        .process{
+            align-items: baseline;
+            .process-start{
+                .circle-border{
+                    width: 40px !important;
+                    height: 40px !important;
+                    padding: 10px !important;
+                    .images{
+                        width: 30px !important;
+                        height: 30px !important;
+                    }
+                    
+                }
+                .image-desc{
+                    width: 100% !important;
+                    align-items: baseline;
+                    padding-top: 10px !important;
+                }
+            }
+        }
+
+    }
+    // fourth-column
+    .fourth-column{
+        .icons-img-box{
+            top: 10% !important;
+            left: 7% !important;
+            img{
+                width: 50% !important;
+            }
+        }
+        .marketplace-text-box{
+            top: 10% !important;
+            right: 10% !important;
+            // width: 200px !important;
+            width: 20% !important;
+
+            .heading{
+                font-size: 15px !important;
+                font-weight: 500;
+            }
+            
+        }
+    }
+    // fifth-column
+    .fifth-column{
+        .left-side{
+            padding-bottom: 10px;
+            .images{
+                width: 200px !important;
+            }
+        }
+        .right-side{
+            width: 90%;
+            margin: auto;
+            .bank-heading{
+                font-size: 20px !important;
+            }
+            .bank-para{
+                font-size: 13px !important;
+                padding: 10px 0px !important;
+            }
+        }
+    }
+    .banking-bg{
+        background: url('../images/cash-bg.png') no-repeat !important;
+        height: auto !important;
+        background-size: 100% 100% !important;
+    
+    }
+    // sixth-column
+    .box{
+        padding-top: 10px !important;
+        .left-side{
+            display: flex;
+            align-items: center;
+    
+        }
+        
+        .management-features{
+            .feature{
+                line-height: 2.5 !important;
+                .feature-img{
+                    width: 30px !important;
+                    height: 30px !important;
+                }
+                .feature-point{
+                    .heading{
+                        font-size: 16px !important;
+                    }
+                }
+            }   
+        }
+    }
+    // footer
+    .footer{
+        .logo{
+            width: 130px !important;
+        }
+        .explore-ways{
+            flex-wrap: wrap;
+            justify-content: center;
+            .explore-box{
+                width: 30% !important;
+                padding: 10px !important;
+                .icon{
+                    width: 25px !important;
+                    height: 25px !important;
+                    margin: 0 !important;
+                }
+            }
+        }
+    }
 }
 //tablets
 @media screen and (min-width:721px) and (max-width:1100px){
@@ -128,7 +315,7 @@ ul{
         width: 90%;
     }
     // header
-    
+
     // sections
     .sector-img{
         height: 400px !important;

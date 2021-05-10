@@ -25,7 +25,7 @@ function Landing() {
   return (
     <>
         <section>
-            <div className="w-80 w-90 m-auto flex first-column p-top-bottom-100">
+            <div className="w-80 w-90 w-100 m-auto flex first-column p-top-bottom-100">
                 <div className="left-side">
                     <div className="">
                         <div className="heading font-family m-bottom-10">Banking Compliant <span className="line-break">Payments</span><span className="line-break">Technology.</span> </div>
@@ -42,7 +42,7 @@ function Landing() {
         </section>
         <section>
             <div className="bg-image second-column w-100 flex v-align">
-                <div className="flex w-80 w-90 m-auto">
+                <div className="flex w-80 w-100 w-90 m-auto p-top-bottom-20">
                     <div className="w-60"></div>
                     <div className="font-family w-40 realtime-project">
                         <div className="realtime-head">Buy & Sell Products <br/>with Confidence</div>
@@ -54,7 +54,7 @@ function Landing() {
             </div>
         </section>
         <section>
-            <div className="w-80 w-90 m-auto third-column p-top-bottom-100">
+            <div className="w-80 w-90 w-100 m-auto third-column p-top-bottom-100">
                 <div className="box-align m-auto font-family">
                     <div className="heading">We protect both trading partners</div>
                     <div className="text">Buyers and Sellers negotiate on the terms and conditions of payment release before the buyer escrow funds. Funds are only released once the agreed upon terms are satisfied.</div>
@@ -124,19 +124,19 @@ function Landing() {
                 </div>
                 <div className="marketplace-text-box">
                     <div className="heading">Marketplace Integration Technology</div>
-                    <div className="text-box">Easily integrated the Yubi Global B2B <br />Easily integrated the Yubi Global B2B<br />Easily integrated</div>
+                    <div className="text-box display-none">Easily integrated the Yubi Global B2B <br />Easily integrated the Yubi Global B2B<br />Easily integrated</div>
                 </div>
             </div>
         </section>
         <section>
             <div className="banking-bg fifth-column flex v-align">
-                <div className="w-80 w-90 m-auto flex v-align">
-                    <div className="left-side w-50">
+                <div className="w-80 w-90 w-100 m-auto flex v-align direction-column p-top-bottom-20">
+                    <div className="left-side w-50 w-100">
                         <div className="images m-auto">
                             <img src={CashImg} alt='cash img' />
                         </div>
                     </div>
-                    <div className="right-side w-50 ">
+                    <div className="right-side w-50 w-100 ">
                         <div className="font-family">
                             <div className="bank-heading">Cash Intensive Banking</div>
                             <div className="bank-para p-top-20 p-bottom-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</div>
@@ -149,17 +149,17 @@ function Landing() {
             </div>
         </section>
         <section>
-            <div className="w-80 w-90 m-auto sixth-column p-top-bottom-100">
+            <div className="w-80 w-90 w-100 m-auto sixth-column p-top-bottom-100 p-top-bottom-20">
                 <div className="t-align p-bottom-20">
                     <div className="text-heading font-family">Cash Management</div>
                 </div>
-                <div className="flex box">
-                    <div className="left-side w-50">
+                <div className="flex direction-column box">
+                    <div className="left-side w-50 w-100">
                         <div className="management-img">
                             <img src={ManagementIcon} alt="" />
                         </div>
                     </div>
-                    <div className="right-side w-50 flex v-align">
+                    <div className="right-side w-50 flex v-align w-100">
                         <div className="management-features">
                             <div className="feature flex v-align">
                                 <div className="feature-img  flex h-align v-align">
